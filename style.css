@@ -1,0 +1,97 @@
+* {
+    background-color: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoalura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 5%;
+}
+
+main {
+    /*faz as duas sections ficarem um ao lado do outro*/
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.first {
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    margin-top: 90px;
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+}
+::placeholder{color: #0A3871;}
+    .first:focus{
+        outline: none;
+    }
+
+.second {
+    height: 600px;
+    background-color: white;
+    background-image: url(High\ quality\ products\ 1\ 1.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position:fixed;
+
+}
+/*pseudo class :focus é para dar um foco e acontecer quando o usuario seleciona a área seja com o mouse ou com o teclado*/
+.second:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 10px;
+}
+.descriptogrfia{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 320px;
+}
+
+.criptografar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 320px;
+}
+
+.copiar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 110px;
+    margin-top: 550px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #485057;
+    font-size: 18px;
+  
+}
